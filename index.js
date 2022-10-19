@@ -102,7 +102,7 @@ app.post("/login", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("망고샵의 서버가 돌아가고 있습니다.");
+  console.log("dior샵의 서버가 돌아가고 있습니다.");
   models.sequelize
     .sync()
     .then(() => {
